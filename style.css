@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-bottom {
+    
+}
