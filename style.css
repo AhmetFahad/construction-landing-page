@@ -1,14 +1,56 @@
-.header {
+body{
+    margin: 0;
+}
+
+.flex-col {
     display: flex;
     flex-direction: column;
 }
 
-.head-top {
+.flex-row {
     display: flex;
     justify-content: space-between;
+}
+
+.header { 
+    background-color: #171e36;
+    color: aliceblue;
+    padding: 20px 100px;
+}
+
+.head-top {
     align-items: center;
 }
 
-.head-bottom {
-    
+.top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #404261;
+    color: aliceblue;
+    padding: 100px;
+}
+
+.middle {
+    background-color: #7a669b;
+    color: aliceblue;
+}
+
+.bottom{
+    background-color: #c69cda;
+}
+
+.footer {
+    background-color: #f8cbed;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid black; 
+}
+
+.card.flex-row{
+    justify-content: space-around;
+    gap: 20px;
 }
