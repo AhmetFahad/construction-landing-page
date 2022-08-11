@@ -2,6 +2,23 @@ body{
     margin: 0;
 }
 
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    flex-shrink: 0;
+    gap: 50px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -14,12 +31,40 @@ body{
 
 .header { 
     background-color: #171e36;
-    color: aliceblue;
-    padding: 20px 100px;
+    color: white;
+    padding: 25px 100px 25px 100px;
+    gap: 100px;
 }
 
 .head-top {
     align-items: center;
+    gap: 50px;
+}
+
+.head-bottom img{
+    border: 5px solid white; 
+    width: 500px;
+    height: auto;
+}
+
+.head-bottom{
+    gap: 50px;
+}    
+
+.left {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 150px;
+    max-width: 300px;
+}
+
+.head-bottom button{
+    background-color:red;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    border-radius: 20px;
+    border: 0;
 }
 
 .top {
@@ -27,13 +72,13 @@ body{
     flex-direction: column;
     text-align: center;
     background-color: #404261;
-    color: aliceblue;
+    color: white;
     padding: 100px;
 }
 
 .middle {
     background-color: #7a669b;
-    color: aliceblue;
+    color: white;
 }
 
 .bottom{
@@ -53,4 +98,9 @@ body{
 .card.flex-row{
     justify-content: space-around;
     gap: 20px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 25px;
 }
