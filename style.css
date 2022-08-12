@@ -125,6 +125,8 @@ body{
 
 .bottom{
     background-color: #c69cda;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -164,4 +166,47 @@ body{
     color: #171e36;
     text-align: center;
     padding: 20px;
+}
+
+.CTA.flex-row{
+    background-color: #171e36;
+    width: 500px;
+    height: %40;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px;
+    gap: 120px;
+    justify-content: center;
+    color: white;
+    flex-shrink: 1;
+}
+
+.CTA button {
+    background-color: #171e36;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    max-height: 100px;
+    align-self: center;
+    font-size: 24px;
+}
+
+.CTA button a {
+    color: white;
+    text-decoration: none;
+}
+
+.text.flex-col {
+   gap: 20px; 
+}
+
+.texta {
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.textb {
+    font-size: 18px;
+    color: white;
 }
