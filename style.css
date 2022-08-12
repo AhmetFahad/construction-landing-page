@@ -100,7 +100,27 @@ body{
 
 .middle {
     background-color: #7a669b;
-    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texttop{
+    font-size: 36px;
+    font-style: italic;
+    text-justify: auto;
+    color: rgba(245, 245, 245, 0.795);
+}
+
+.textbot {
+    text-align: end;
+    color: #171e36;
 }
 
 .bottom{
@@ -138,4 +158,10 @@ body{
 
 .reference {
     color: red;
+}
+
+.footer {
+    color: #171e36;
+    text-align: center;
+    padding: 20px;
 }
